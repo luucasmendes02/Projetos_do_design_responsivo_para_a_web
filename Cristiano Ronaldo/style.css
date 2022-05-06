@@ -15,8 +15,14 @@ h5 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    bottom: 20px;
 }
 #image {
-    width: 750px;
+    width: 50%;
     border-radius: 10px;
+}
+#tribute-info {
+    text-align: center;
+    font-size: 25px;
 }
