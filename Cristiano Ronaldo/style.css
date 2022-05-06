@@ -1,0 +1,22 @@
+#main {
+    background-color: #0A0A23;
+    color: white;
+  }
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+h5 {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+#img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#image {
+    width: 750px;
+    border-radius: 10px;
+}
