@@ -4,20 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Football"/>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Formulário - Brasileirão 2022</title>
 </head>
 <body>
-    <h1 id="title">Formulário de Pesquisa do Brasileirão</h1>
-    <p id="description">Qual é o seu time de coração?</p>
-    <form id="survey-form" action="">
-    <h4>Nome</h4>
-    <input type="text" name="name" id="name">
-    <h4>Email</h4>
-    <input type="text" name="email" id="email">
-    <h4>Telefone</h4>
-    <input type="number" name="number" id="number" min="1000000000" max="99999999999">
-
+    <h1 id="title"><strong>Formulário de Pesquisa do Brasileirão</strong></h1>
+    <p id="description"><strong>Qual é o seu time de coração?</strong></p>
+    <div id="form">
+        <form id="survey-form" action="">
+        <div class="info">
+        <br>
+        <br>
+        <p id="name-label"><strong>Nome</strong></p>
+        <input type="text" placeholder="Escreva seu nome" name="name" id="name" required>
+        <p id="email-label"><strong>Email</strong></p>
+        <input type="email" placeholder="Escreva seu email" name="email" id="email" required>
+        <p id="number-label"><strong>Idade</strong></p>
+        <input type="number" placeholder="idade" name="number" id="number" min="1" max="99" required></p>
+        </div>
+        <br>
+        <br>
+        <div class="Team">
+        <p id="Team"><strong>Time do Coração</strong></p>
+        <select name="Team" id="dropdown" required>
+        <option disabled selected value>SELECIONE SEU TIME</option>
+        <option value="AME">AMÉRICA MINEIRO</option>
+        <option value="CAP">ATHLETICO PARANAENSE</option>
+        <option value="ACG">ATLÉTICO GOIANIENSE</option>
+        <option value="CAM">ATLÉTICO MINEIRO</option>
+        <option value="AVA">AVAÍ</option>
+        <option value="BOT">BOTAFOGO</option>
+        <option value="CEA">CEARÁ</option>
+        <option value="COR">CORINTHIANS</option>
+        <option value="CFC">CORITIBA</option>
+        <option value="CUI">CUIABÁ</option>
+        <option value="FLA">FLAMENGO</option>
+        <option value="FLU">FLUMINENSE</option>
+        <option value="FOR">FORTALEZA</option>
+        <option value="GOI">GOIÁS</option>
+        <option value="INT">INTERNACIONAL</option>
+        <option value="JUV">JUVENTUDE</option>
+        <option value="PAL">PALMEIRAS</option>
+        <option value="RBB">RED BULL BRAGANTINO</option>
+        <option value="SAN">SANTOS</option>
+        <option value="SAO">SÃO PAULO</option>
+        <option value="OUT">OUTRO</option>
+        </select>
+        </div>
+        <br>
+        <br>
+        <div class="Estadio">
+        <p><strong>Você já assistiu um jogo em um estádio?</strong></p>
+        <div id="yes-no">
+        <input type="radio" name="sim-nao" class="input-radio" value="sim" checked><strong>Sim</strong></input>
+        <br>
+        <input type="radio" name="sim-nao" class="input-radio" value="sim"/><strong>Não</strong></input>
+        </div>
+        <br>
+        <br>
+        <div class="Choice">
+        <p><strong>Você costuma assistir os jogos em qual local? (Escolha uma ou mais opções)</strong></p>
+        <label id="Choice">
+        <input type="checkbox" name="prefer"><strong>Em casa</strong>
+        <br>
+        <input type="checkbox" name="prefer"><strong>Bar</strong>
+        <br>
+        <input type="checkbox" name="prefer"><strong>Estádio</strong>
+        <br>
+        <input type="checkbox" name="prefer"><strong>Outros</strong>
+        </label>
+        </div>
+        <br>
+        <br>
+        <div id="comment">
+        <p><strong>Informe seus problemas e dê sugestões que ajude você e mais pessoas irem ao estádio.</strong></p>
+        <textarea class="comment" name="comment" placeholder="Envie seu comentário..."></textarea>
+        </div>
+        <br>
+        <div class="submit">
+        <button type="submit" id="submit"><strong>Enviar</strong></button>
+        </div>
+        <br>
+        <br>
+    </div>
     </form>
 </body>
 </html>

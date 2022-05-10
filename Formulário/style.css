@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+#title {
+    text-align: center;
+    color: white;
+}
+#description {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 15px;
+}
+#survey-form {
+    width: 50%;
+    background-color: rgb(255, 255, 255, 0.75);
+    flex-direction: column;
+    padding-left: 20px;
+}
+#form {
+    display: flex;
+    justify-content: center;
+}
+p {
+    font-size: 25px;
+}
+#name {
+    width: 95%;
+    height: 20px;
+    position: relative;
+    bottom: 20px;
+}
+#email {
+    width: 95%;
+    height: 20px;
+    position: relative;
+    bottom: 20px;
+}
+#number {
+    width: 95%;
+    height: 20px;
+    position: relative;
+    bottom: 20px;
+}
+#dropdown {
+    width: 96%;
+    height: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.comment {
+    width: 96%;
+    min-height: 120px;
+    resize: none;
+    position: relative;
+    bottom: 20px;
+}
+#submit {
+    background-color: transparent;
+    font-size: 30px;
+    width: 97%;
+    color: black;
+    border: none;
+    position: relative;
+    bottom: 10px;
+}
+#yes-no {
+    position: relative;
+    bottom: 20px;
+}
+#Choice {
+    position: relative;
+    bottom: 20px;
+}
