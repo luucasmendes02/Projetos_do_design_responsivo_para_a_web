@@ -1,0 +1,30 @@
+body {
+}
+#header-img {
+    height: 50px;
+}
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 60vw;
+  }
+  li {
+      list-style: none;
+  }
+ #header {
+    display: flex;
+    flex-direction: row;  
+  }
+  #nav-bar {
+      display: flex;
+  }
+  #video {
+      position: relative;
+      top: 100px;
+  }
+  .video {
+      display: flex;
+      justify-content: center;
+  }
