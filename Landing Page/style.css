@@ -15,16 +15,67 @@ nav > ul {
   }
  #header {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
+    position: fixed;
+    background-color: white;
   }
   #nav-bar {
       display: flex;
   }
   #video {
       position: relative;
-      top: 100px;
+      top: 170px;
   }
   .video {
       display: flex;
       justify-content: center;
   }
+  #form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-size: 25px;
+  }
+  #email {
+      height: 15px;
+      width: 400px;
+  }
+  #submit {
+      color: black;
+      height: 20px;
+      width: 100px;
+  }
+  #email-field {
+      position: relative;
+      top: 70px;
+  }
+  @media (max-width: 350px) {
+    #email {
+        width: 300px;
+    }
+}
+    .container {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        height: 150px;
+        width: 700px;
+        background: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        grid-template-areas:
+        "header header header"
+        "advert content content"
+        "footer footer footer";
+    }
+  .item1 {
+      background-color: blue;
+    } 
+  .item2 {
+    background-color: red;
+    }
+    .item3 {
+    background-color: blue;
+    }
