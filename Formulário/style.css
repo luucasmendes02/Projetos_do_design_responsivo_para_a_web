@@ -16,6 +16,7 @@ body {
     background-color: rgb(255, 255, 255, 0.75);
     flex-direction: column;
     padding-left: 20px;
+    border-radius: 20px;
 }
 #form {
     display: flex;
@@ -28,25 +29,29 @@ p {
     width: 95%;
     height: 20px;
     position: relative;
-    bottom: 20px;
+    top: 10px;
+    border-radius: 5px;
 }
 #email {
     width: 95%;
     height: 20px;
     position: relative;
-    bottom: 20px;
+    top: 20px;
+    border-radius: 5px;
 }
 #number {
     width: 95%;
     height: 20px;
     position: relative;
-    bottom: 20px;
+    top: 30px;
+    border-radius: 5px;
 }
 #dropdown {
     width: 96%;
     height: 20px;
     position: relative;
     bottom: 20px;
+    border-radius: 5px;
 }
 .comment {
     width: 96%;
@@ -54,6 +59,7 @@ p {
     resize: none;
     position: relative;
     bottom: 20px;
+    border-radius: 5px;s
 }
 #submit {
     background-color: transparent;
@@ -71,4 +77,19 @@ p {
 #Choice {
     position: relative;
     bottom: 20px;
+}
+#name-label {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+#email-label {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+}
+#number-label {
+    font-size: 25px;
+    position: relative;
+    top: 30px;
 }
