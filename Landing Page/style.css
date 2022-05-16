@@ -1,4 +1,5 @@
 body {
+    background-color: black;
 }
 #header-img {
     height: 50px;
@@ -9,18 +10,25 @@ nav > ul {
     flex-direction: row;
     justify-content: space-around;
     margin-left: 60vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
   }
   li {
       list-style: none;
+      position: relative;
+      top: 8px;
   }
  #header {
     display: flex;
     flex-direction: row;
-    position: fixed;
     background-color: white;
+    margin-top: auto;
   }
   #nav-bar {
-      display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
   }
   #video {
       position: relative;
@@ -41,7 +49,8 @@ nav > ul {
       width: 400px;
   }
   #submit {
-      color: black;
+      color: white;
+      background-color: transparent;
       height: 20px;
       width: 100px;
   }
@@ -55,27 +64,29 @@ nav > ul {
     }
 }
     .container {
-        color: white;
         text-align: center;
         font-size: 40px;
         height: 150px;
         width: 700px;
-        background: black;
-        display: grid;
+        background: transparent;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 24%;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 30px;
-        grid-template-areas:
-        "header header header"
-        "advert content content"
-        "footer footer footer";
+        position: relative;
+        top: 300px;
     }
-  .item1 {
-      background-color: blue;
-    } 
-  .item2 {
-    background-color: red;
+    .container p {
+        font-size: 20px;
+        color: white;
     }
-    .item3 {
-    background-color: blue;
+    h1 {
+        color: white;
     }
+    li {
+        color: white;
+    }
+    
