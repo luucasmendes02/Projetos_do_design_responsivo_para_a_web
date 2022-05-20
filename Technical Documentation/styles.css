@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: white;
+}
+main {
+    color: black;
+    margin-left: 410px;
+    padding: 20px;
+    display: block;
+    margin-bottom: 110px;;
+}
+header {
+    font-size: 30px;
+}
+li {
+    font-size: 25px;
+    list-style: none;
+    background-color: white;
+    color: black;
+}
+ul {
+    text-align: left;
+    padding: 0;
+}
+nav {
+    position: fixed;
+}
+#navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+    border-right: solid;
+    border-color: gray;
+}
+nav header {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.nav-link {
+    position: relative;
+    left: 10px;
+    top: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+p {
+    font-size: 20px;
+}
+@media (max-width: 450px) {
+    #navbar {
+        width: 400px;
+    }
