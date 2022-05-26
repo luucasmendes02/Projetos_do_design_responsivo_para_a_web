@@ -5,19 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <section id="welcome-section">
-        <h1 id="name">Hey I am Lucas</h1>
-        <h1>a web developer</h1>
+    <div id="welcome">
+        <section id="welcome-section">
+            <h1 id="name"><strong>Hey I am Lucas</strong></h1>
+            <h1 class="welcome">a web developer</h1>
+        </section>
+    </div>
+    <br><br>
+    <div id="work">
+        <section id="projects">
+            <h1 class="project-tile">This is one of my projects</h1><br><br>
+            <a href="https://codepen.io/luucasmendes02/full/abqLRyV" target="_blank"><img class="project-img" src="./Imagens/img.png" alt="Technical documentation of a server"></a><br><br>
+            <a href="https://codepen.io/luucasmendes02/full/abqLRyV" target="_blank">Technical documentation of a server</a>
+            <h4>(Click to see in full)</h4>
+        </section>
+    </div>
+    <div id="ctt">
+    <section id="contact">
+        <h1 class="contact">Get to know my other projects through my <br><br><a id="profile-link" href="https://github.com/luucasmendes02" target="_blank">GitHub</a></h1>
     </section>
-    <section id="projects" class="project-tile">
-        <a href="https://codepen.io/luucasmendes02/full/abqLRyV" target="_blank"><img class="project-img" src="./Imagens/img.png" alt="Technical documentation of a server"></a><br>
-        <a href="https://codepen.io/luucasmendes02/full/abqLRyV" target="_blank">Technical documentation of a server</a>
-    </section>
-    <nav id="navbar">
-
-    </nav>
+    </div>
+    <div id="nav">
+        <nav id="navbar">
+            <a href="#welcome-section">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#projects">Work</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </nav>
+    </div>
 </body>
 </html>
